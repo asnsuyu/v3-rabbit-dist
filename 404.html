@@ -1,25 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Page Not Found</title>
-  <meta http-equiv="refresh" content="0; url=/#/">
-  <script type="text/javascript">
-    // 提取当前路径
-    const pathname = window.location.pathname;
-    const search = window.location.search;
-    const hash = window.location.hash;
-
-    // 构建重定向路径
-    const redirectTo = pathname + search + hash;
-
-    // 重定向到 index.html，并附加原始路径信息
-    // window.location.replace('/?' + redirectTo);
-    window.location.replace(redirectTo);
-  </script>
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>电商购物前台模板</title>
+  <!-- 引入字体图标 -->
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_2143783_iq6z4ey5vu.css">
 </head>
+
 <body>
-  <h1>Page Not Found</h1>
-  <p>Redirecting...</p>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
 </body>
+
 </html>
