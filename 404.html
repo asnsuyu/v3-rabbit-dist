@@ -10,6 +10,8 @@
     const search = window.location.search;
     const hash = window.location.hash;
     const redirectTo = '/' + (pathname + search + hash).substring(1);
+
+    // 这句是重点，再次重定向，强制在路径前面加上“#”
     window.location.replace('/' + '#' + redirectTo);
   </script>
 </head>
