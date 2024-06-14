@@ -6,10 +6,10 @@
   <meta http-equiv="refresh" content="0; url=/#/">
   <script type="text/javascript">
     // 如果 JavaScript 可用，将用户重定向到 index.html 并保留路径信息
-    var pathname = window.location.pathname;
-    var search = window.location.search;
-    var hash = window.location.hash;
-    var redirectTo = '/' + (pathname + search + hash).substring(1);
+    const pathname = window.location.pathname;
+    const search = window.location.search;
+    const hash = window.location.hash;
+    const redirectTo = '/' + (pathname + search + hash).substring(1);
     window.location.replace('/' + '#' + redirectTo);
   </script>
 </head>
