@@ -1,0 +1,1 @@
+import{h as o}from"./userStore-BdjKRuiA.js";const r=(r={})=>{const{distributionSite:s="1"}=r;return o({url:"/home/banner",params:{distributionSite:s}})},s=()=>o({url:"/home/new"}),t=()=>o({url:"home/hot"}),e=()=>o({url:"/home/goods"});export{t as a,e as b,s as f,r as g};

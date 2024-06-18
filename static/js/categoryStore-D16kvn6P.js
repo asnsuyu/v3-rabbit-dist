@@ -1,0 +1,1 @@
+import{h as e}from"./userStore-BdjKRuiA.js";const r=Pinia.defineStore("category",(()=>{const r=Vue.ref([]),t=Vue.ref(null);return{categoryList:r,fromLink:t,getCategory:async()=>{const t=await e({url:"/home/category/head"});r.value=t.result},setFromLink:e=>{t.value=e}}}));export{r as u};
